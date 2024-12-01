@@ -153,7 +153,7 @@ export default function MainHeaderMobile() {
             setArrowRotate({...arrowRotate, sportsMenuArrow: !arrowRotate.sportsMenuArrow})
             }} className="divafterSports divafter">
         <a href="#" className="a-5 sports-mobile">SPORTS</a>
-        <i className={`${arrowRotate.kidsMenuArrow ==true? 'arrowRotated' : 'arrowBack'} bi bi-caret-down-fill`}></i>
+        <i className={`${arrowRotate.sportsMenuArrow ==true? 'arrowRotated' : 'arrowBack'} bi bi-caret-down-fill`}></i>
         </div>
 
         
