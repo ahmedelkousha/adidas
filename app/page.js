@@ -15,6 +15,7 @@ import './components/styles/categoriesMiniContainer.css'
 import CarouselProducts from "./components/carouselProducts";
 import PromotionBanner from "./components/promotionBannerWithBtn";
 import Footer from "./components/footer";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 // const IMAGES_OFFER_CARD = [
 //   { url: "product1.jpg", title: "Winter Hoodies", price:"" },
@@ -110,6 +111,7 @@ export default function App() {
 
   return (
     <>
+    <SpeedInsights/>
       <PromotionHeader
         title1={"FREE DELIVERY OVER 999 EGP"}
         title2={"WELCOME OFFER 15% OFF"}
